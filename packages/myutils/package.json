@@ -1,0 +1,20 @@
+{
+  "name": "myutils",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/my-ts-library.cjs.js",
+  "module": "./dist/my-ts-library.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
